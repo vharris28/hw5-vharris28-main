@@ -17,7 +17,6 @@ def find_period(s):
         if n % p == 0:  
             if s[:p] * (n // p) == s:  
                 return p  
-    
     return -1 
 
 
